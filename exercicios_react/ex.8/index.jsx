@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ClassComponent from './classComponent'
+
+import Primeiro, { Segundo } from './component'
 
 ReactDOM.render(
-   <div>
-     <ClassComponent label='Contador' initialValue={0}/>
-    </div>,
-    document.getElementById('app')
-)
-
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>
+, document.getElementById('app'))
